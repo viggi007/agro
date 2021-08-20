@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroSupport</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <ul id="list1">
+                <div id="logo">
+                    <img src="/img/logo.jfif" alt="The agri logo">
+                </div>
+                <li class="list"> <a href="">home</a></li>
+                <li class="list"> <a href="">about</a></li>
+                <li class="list"> <a href="">service</a></li>
+                <li class="list"> <a href="">contact us</a></li>
+            </ul>
+            <div class="navright">
+                <ul class="list12">
+                    <li class="list2">
+                        <a href="/signup.html">sign in</a>
+                        <a href="/login.html">log in</a>
+                    </li>
+                </ul>
+
+    </header>
+    <main>
+        <div class="loginform">
+            <form action="action_page.php" method="post">
+                <div class="imgcontainer">
+                    <img src="img/logo.jfif" alt="Avatar" class="avatar">
+                </div>
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> <i>Remember Me</i>
+                    </label>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+        </div>
+    </main>
+    <div class="pict">
+        
+    </div>
+    <footer>
+    
+    </footer>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCMMR_zLaNakeHQ1sUq0tLwLBpXLp7BGiY",
+    authDomain: "agroproject-45625.firebaseapp.com",
+    projectId: "agroproject-45625",
+    storageBucket: "agroproject-45625.appspot.com",
+    messagingSenderId: "786919363568",
+    appId: "1:786919363568:web:9136bb82e8d36c48b88335",
+    measurementId: "G-YX8PK88GN3"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script> </script>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/img/farmerimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#logo{
+    margin: 6px;
+    padding: 0;
+ }
+#logo img {
+    margin: -2px;
+    padding: 0px;
+    width: 53px;
+    border-radius: 49px;
+    border: solid black 2px;
+}
+#navbar{
+  display: flex;
+   
+}
+#list1{
+    width: 50%;
+    background-color: rgba(22, 23, 24, 0.911);
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    top: 0%;
+}
+#navbar ul li{
+    padding: 20px;
+    list-style: none;
+    
+}
+#navbar ul li a{
+    text-decoration:none ;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.navright{
+    width: 50%;
+    background-color: rgba(22, 23, 24, 0.911);
+    text-align: right;
+    align-items: center;
+    top: 0%;
+}
+.navright ul li a{
+    padding-inline: 23px
+    ;
+}
+
+.loginform {
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(239%,19%);
+    width: 424px;
+    height: 353px;
+    text-align: center;
+    opacity: 0.9;
+    box-shadow: -25px -25px 50px dimgray;
+}
+.imgcontainer{
+padding: 5px;
+}
+.imgcontainer img {
+    width: 127px;
+    border-radius: 200px;
+    border-color: black;
+    border-block-start-width: thick;
+    border: black;
+}
+.imgcontainer img :hover{
+
+    border-color:black 5px;
+    border-style: solid;
+
+}
+form {
+    border: 3px solid #f1f1f1;
+  }
+  button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.6;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color:blue;
+    opacity: 0.6;
+  }
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+.container{
+    margin: 0%;
+    padding: 9px;
+
+}
+.container label {
+  margin: 0%;
+  font-size: 18px;
+  font-family: sans-serif;
+ color:white solid  ;
+}
+.container label:hover
+ {
+  margin: 0%;
+  font-size: 18px;
+  color:black;
+  background: white;
+  border-radius: 20px;
+}
+.pic{
+  background: url(/img/farmer2.jpg);
+
+}
